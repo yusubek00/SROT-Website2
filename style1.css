@@ -1,0 +1,338 @@
+/* 
+
+BLUE COLOR #:  rgba(2,45,61,255)
+
+YELLOW COLOR #: rgba(254,209,65,255)
+
+*/
+
+html{
+    overflow-x: hidden;
+}
+.top-section {
+    background-color: rgba(2,45,61,255);
+    width: 100%;
+    height: 120px;
+}
+
+.title-icons img:nth-child(1){   
+    width: 100px;
+    margin-right: 0px;
+}
+
+.title-icons img:nth-child(2){
+    width: 300px;
+    height: 50px
+}
+#smallLine { 
+    position: relative;
+    top: 50px;
+    left: 500px;
+    font-size: larger;
+    color: rgba(254,209,65,255);   
+}/*small header over title */
+
+h1 {
+    padding-left: 50px 
+}/*title */
+
+.headerNav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-left: 30%;
+    padding-right: 20%;
+    background-color: rgba(254,209,65,255)
+}
+
+.headerNav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;  
+}
+
+.headerNav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgba(2,45,61,255);
+}
+
+.headerNav ul li a:hover{
+    color: white;
+    transition: 0.3s;
+}
+
+body, head{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: 'aptos', sans-serif;
+}
+
+.footer img:nth-child(1){
+    width: 300px;
+    height: 50px;
+    margin-left: 15px;
+    margin-top: 15px;;
+}
+
+.footer{
+    background-color: rgba(2,45,61,255); 
+    width: 100%;
+    margin: auto;
+}
+
+.footerRow{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 100px;
+    padding-left: 30%;
+    padding-right: 30%;
+    color: rgba(254,209,65,255);
+}
+
+.footerRow ul li{
+    list-style-type: none;
+    padding-bottom: 10px;
+}
+
+.footerRow h4{
+    margin-bottom: 30px;
+}
+
+.footerRow ul li a{
+    font-size: 16px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    color: rgba(254,209,65,255);
+    
+}
+
+.footer ul li a:hover{
+    color: rgba(254,209,150,255);
+    padding-left: 10px;
+}
+
+.socialIcons ul li a{
+    position: relative;
+    left: 210px;
+    top: 30px;
+    display: inline-block;
+    overflow: hidden;
+    height: 20px;
+    width: 30px;
+    color: white;
+    text-align: center;
+    line-height: 20px;
+    margin-right: 0 10px 10px 0;
+    border-radius: 50%;
+    transition: all 0.7 ease-out;    
+}
+
+.socialIcons ul li a:hover{
+    color: rgba(254,209,65,255);
+    
+}
+
+.footer h2{
+    padding-left: 10px;
+    padding-bottom: 10px;
+    color: white;
+}
+
+/* HEADER AND FOOTER ABOVE  
+                            
+
+
+ HOME PAGE CONTENT BELOW*/
+
+.container-outside {
+    display: flex;
+    width: 100%;
+    height: 500px; 
+}
+
+.text-in-container {
+    width: 30%;
+    height: 70%;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: 50px;
+    box-shadow: 0 0 10px gray;
+    background-color: rgb(236, 233, 233);
+}
+
+.text-in-container h2{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.text-in-container p{
+    font-weight: 500;
+    font-size: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-bottom: 10%;
+}
+
+.Links {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around; 
+     
+}
+
+.link1 {
+    text-decoration: none;
+    color: rgba(2,45,61,255);
+    background-color: gray;
+    border: 3px solid gray;
+    border-radius: 5px;
+    padding: 5px;
+    margin-right: 10%;
+}
+
+.link2 {
+    text-decoration: none;
+    color: rgba(254,209,65,255);
+    background-color: rgba(2,45,61,255);
+    border: 3px solid rgba(2,45,61,255);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.link1:hover {
+    background-color: rgb(185, 183, 183);
+    border: 3px solid rgb(185, 183, 183);
+}
+
+.link2:hover {
+    background-color: rgba(2,70,61,255);
+}
+
+.image-box{
+    width: 60%;
+    background-image: url('SROT\ photos/company_van.png');
+    object-fit: contain;
+    background-repeat: no-repeat;
+    background-position: 60% 50%;
+    background-size: 120%;
+    padding: 0px;
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+
+ /*
+.content{
+    padding: 20px;
+    text-align: center;
+}
+
+.image-box{
+    max-width: 80%;
+    height: 500px;
+    object-fit: contain;
+    background-image: url('SROT\ photos/handicapSymbol.png');
+    background-size: cover;
+    margin: 0 auto 20px;
+    border: 2px;
+}
+
+.image-box h2{
+    display: flex;
+    flex-direction: column;
+    height: 60%;
+    width: 30%;
+    border: 5px solid rgba(2,45,61,255);
+    border-radius: 30px;
+    background-color: rgb(199, 197, 197);
+    box-shadow: -3px 3px 8px gray;
+    font-weight: 1000;
+    align-items: end;
+}
+
+.image-box p{
+    font-weight: normal;
+    font-size: 16px;
+    padding: 10px;
+    padding-bottom: 80px; 
+} /* description in image-box
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#Link1{
+    display: flex;
+    border: 3px solid rgba(2,45,61,255);
+    border-radius: 15px;
+    width: 200px;
+    padding: 10px;
+    position: relative;
+    left: 20px;
+    bottom: 32px;
+    background-color: rgba(254,209,65,255);
+
+}
+#Link2{
+    display: flex;
+    border: 3px solid rgba(2,45,61,255);
+    width: 200px;
+    border-radius: 15px;
+    padding: 10px;
+    position: relative;
+    left: 270px;
+    bottom: 93px;  
+    background-color: rgba(2,45,61,255);
+}
+
+#Link1 a{
+    color: rgba(2,45,61,255);
+    text-decoration: none;
+}
+
+#Link2 a{
+    color: rgba(254,209,65,255);
+    text-decoration: none;
+}
+*/
+
+.text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+
+.textColumns{
+    margin: 0;
+    padding: 10px;
+}
+
+/*
+.textColumns{
+   
+}
+.text:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.textColumns h3{
+    text-align: center;
+    color: rgba(2,45,61,255);
+    b
+}
+    */
